@@ -1,0 +1,37 @@
+@color1:	#ff0;
+@color2:	#B75086;
+@color3:	#532D86;
+@color4:	#C45786;
+@color5:	#BB6655;
+@color6:	#DDBB99;
+@color7:	#3BBBC6;
+
+
+
+.transition(@css:all, @time, @easing: ease-out){
+	-webkit-transition: @css @time @easing;
+	   -moz-transition: @css @time @easing;
+	    -ms-transition: @css @time @easing;
+	     -o-transition: @css @time @easing;
+		    transition: @css @time @easing;
+}
+
+#home{background:@color1;}
+#products{background:@color7;}
+#music{background:@color2;}
+#pictures{background:@color3;}
+#videos{background:@color4;}
+#match{background:@color5;}
+#contact{background:@color6;}
+
+html, body{margin:0;padding:0}
+html, body, .wrapper, #home, #products, #music, #pictures, #videos, #match, #contact{height:100%; width:100%}
+.wrapper{overflow:hidden;position:relative;}
+#home, #products, #music, #pictures, #videos, #match, #contact{position:absolute;.transition(top,0.2s,linear);top:0;}
+/*#home{z-index:7}
+#products{z-index:6}
+#music{z-index:5}
+#pictures{z-index:4}
+#videos{z-index:3}
+#match{z-index:2}
+#contact{z-index:1}*/
