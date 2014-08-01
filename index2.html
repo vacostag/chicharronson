@@ -1,0 +1,88 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<title>Chicharronsón</title>
+		<link href="css/main.css" rel="stylesheet" type="text/css" />
+	</head>
+	<body>
+		<div class="menu">
+			<div class="arrow"></div>
+			<ul>
+				<li>INICIO</li>
+				<li>MÚSICA</li>
+				<li>IMÁGENES</li>
+				<li>VIDEOS</li>
+				<li>BLOG</li>
+				<li>CONCURSOS</li>
+				<li>CONTACTO</li>
+			</ul>
+		</div>
+		<div id="bg1" data-0="background-position:0px 0px;" data-end="background-position:0px -2000px;"></div>
+		<div id="bg2" data-0="background-position:0px 0px;" data-end="background-position:0px -1000px;"></div>
+		<div id="bg3" data-0="background-position:0px 0px;" data-end="background-position:0px -500px;"></div>
+		<div class="footer"><img src="images/ch_down.png" /></div>
+		<div id="home" data-0="opacity:1;top:3%;" data-500="opacity:0.9;top:-100%;">
+			<div class="tv"><img src="images/tv.png" /></div>
+			<div class="logo"><img src="images/logo.png" /></div>
+			<div class="munchy"><img src="images/munchy.png" /></div>
+			<div class="product-wrapper">
+				<ul>
+					<li><img src="images/2.png" /></li>
+					<li><img src="images/3.png" /></li>
+					<li><img src="images/4.png" /></li>
+					<li><img src="images/1.png" /></li>
+				</ul>
+			</div>
+			<div class="twitter-wrapper" data-0="opacity:1;top:300px;left:70px" data-500="opacity:0.9;top:-500%;">
+				<div class="network-wrapper">
+					<ul>
+						<li class="fb">&nbsp;</li>
+						<li class="tw">&nbsp;</li>
+						<li class="yt">&nbsp;</li>
+						<li class="ig">&nbsp;</li>
+					</ul>
+				</div>
+				<div class="twitter">
+					<div class="header">
+						<p><img src="images/tw.png" /></p>
+						<p>@ChicharronSon</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	<div id="musica" data-500="transform:scale(0) rotate(0deg);" data-1000="transform:scale(1) rotate(1440deg);opacity:1;" data-1600="" data-1700="transform:scale(5) rotate(3240deg);opacity:0;">
+
+	</div>
+
+	<div id="imagenes" data-1700="top:100%;" data-2200="top:0%;" data-3000="display:block;" data-3700="top:-100%;display:none;">
+
+	</div>
+
+	<div id="videos" data-0="display:none;" data-3900="display:block;" data-4900="background:rgba(0, 0, 0, 0);color[swing]:rgb(0,0,0);" data-5900="background:rgba(0,0,0,1);color:rgb(255,255,255);" data-10000="top:0%;" data-12000="top:-100%;">
+	
+	</div>
+
+	<div id="concursos" data-10000="top[cubic]:100%;border-radius[cubic]:0em;background:rgb(0,50,100);border-width:0px;" data-12000="top:10%;border-radius:2em;background:rgb(190,230,255);border-width:10px;">
+	
+	</div>
+
+	<div id="contacto" data-10000="top[cubic]:100%;border-radius[cubic]:0em;background:rgb(0,50,100);border-width:0px;" data-12000="top:10%;border-radius:2em;background:rgb(190,230,255);border-width:10px;">
+	
+	</div>
+
+	<div id="scrollbar" data-0="top:0%;margin-top:2px;" data-end="top:100%;margin-top:-52px;"></div>
+	</body>
+	<script type="text/javascript" src="skrollr-master/dist/skrollr.min.js"></script>
+    <script type="text/javascript">
+		var s = skrollr.init({
+					edgeStrategy: 'set',
+					easing: {
+						WTF: Math.random,
+						inverted: function(p) {
+							return 1-p;
+						}
+					}
+				});
+    </script
+</html>

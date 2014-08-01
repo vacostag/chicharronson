@@ -1,0 +1,39 @@
+html, body, div, span, p, a, del, em, img, ol, ul, li, fieldset, form, label {margin: 0;	padding: 0;	border: 0;	font-size: 100%;	font: inherit;	vertical-align: baseline;}
+article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {display: block;}
+html, body {line-height: 1;min-height:100%;font-family:Artial, Verdana, sans-serif;}
+html, body {width:100%;height:100%;padding:0;margin:0;overflow-x:hidden;}
+.skrollable {position:fixed;z-index:100;}
+.skrollr-mobile .skrollable {position:absolute;}
+.skrollable .skrollable {position:absolute;}
+.skrollable .skrollable .skrollable {position:static;}
+
+#bg1, #bg2, #bg3{z-index:50;top:0;left:0; width:100%; height:100%; background:url('../images/ch1.png') repeat 0 0;opacity:0.8}
+#bg2{z-index:49px;background:url('../images/ch2.png');opacity:0.5}
+#bg3{z-index:48px;background:url('../images/ch3.png');opacity:0.2}
+
+.footer{position:fixed;bottom:-60px;left:0;z-index:51}
+.menu{position:fixed;top:0;right:0;background:#000;color:#fff;height:35px;z-index:55}
+.menu ul{padding:0;margin:0;list-style:none;height:35px;margin-right:200px}
+.menu ul li{float:left;padding:10px;font-size:12px;cursor:pointer}
+
+.arrow{width: 0;height: 0;border-style: solid;border-width: 0px 35px 35px 0px;border-color: transparent #000 transparent transparent;position: absolute;left: -35px;}
+#home{width:1024px;margin:-19px 150px;height:100%;z-index:52}
+.logo{position: absolute;top: 0;left: 400px;}
+.munchy{position: absolute;top: 35px;right: 0;}
+
+.product-wrapper{position: relative;left: 450px;top: -60px;}
+.product-wrapper ul li{float:left;margin-left: -70px;list-style:none;}
+
+.fb{background:url('../images/redes.png');background-position: 0 0;}
+.tw{background:url('../images/redes.png');background-position: -71px 0px;}
+.yt{background:url('../images/redes.png');background-position: -142px 0px;}
+.ig{background:url('../images/redes.png');background-position: -213px 0px;}
+.twitter-wrapper{position:absolute;}
+.network-wrapper{height:37px;margin-left:152px}
+.network-wrapper li{height:35px;width:35px;list-style:none;}
+
+.network-wrapper ul li{float:left;margin:1px;}
+.twitter-wrapper .header{border-top:2px solid #ccc;border-bottom:2px solid #ccc;height:35px;}
+.twitter-wrapper .header p{float:left;width:140px;padding:5px;}
+.twitter-wrapper .header p:nth-child(2){text-align:right}
+.twitter-wrapper{background:#fff;width:300px;height:300px}
